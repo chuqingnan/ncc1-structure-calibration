@@ -1,0 +1,9 @@
+analysis: ncc1_candidate_multimer_sensitivity
+model_type: alphafold2_multimer_v3
+num_models: 5
+num_seeds: 5
+predictions_per_complex: 25
+interpretation: exploratory_interface_hypothesis_only
+notes:
+  - Multimer confidence and interface geometry do not establish direct interaction or Cu transfer.
+  - Exact run manifests and raw multimer outputs are assigned to the companion Zenodo dataset.
