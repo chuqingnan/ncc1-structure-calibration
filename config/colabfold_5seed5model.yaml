@@ -1,0 +1,11 @@
+analysis: frozen_candidate_robustness
+model_type: alphafold2_ptm
+num_models: 5
+num_seeds: 5
+seeds: [0, 1, 2, 3, 4]
+num_recycles: 3
+stop_at_score: 100
+amber_relaxation: false
+input_alignment: reused_original_colabfold_a3m
+predictions_per_protein: 25
+selection_policy: frozen_residue_pair_evaluated_in_all_models_without_post_hoc_reselection
