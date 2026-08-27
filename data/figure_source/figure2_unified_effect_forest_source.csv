@@ -1,0 +1,14 @@
+group,label,estimand,effect,low,high,p,method
+Protein-level endpoint,Primary unadjusted,RR,1.35268817204301,0.659103659628459,2.77614190735417,0.526381133285447,17/93 candidate versus 10/74 background; true FreeSASA
+Protein-level endpoint,CMH length/donor strata,OR,1.12464768883878,0.427622127595204,2.95782734893395,0.816032474265393,7 overlapping length x donor-count strata; n=165
+Protein-level endpoint,Length/donor adjusted,OR,0.926069364467172,0.351608670966663,2.4390879367305,0.876468570234545,Logistic regression; length and Cys/Met/His burden; n=167
+Protein-level endpoint,Covariate + structure-quality adjusted,OR,0.809460853472142,0.300022310672561,2.18392716140018,0.676353488087669,"Logistic regression; length, donor burden, pLDDT>=70 coverage; n=167"
+Protein-level endpoint,74-pair matched sensitivity,OR,1.16666666666667,0.335729600660812,4.20203557021716,1.0,7 candidate-only versus 6 background-only discordant pairs; exact CI
+Protein-level endpoint,Post-freeze completed scope,RR,1.2220183486238532,0.5981443854213886,2.496602627677144,0.6777002389551018,18/109 candidate versus 10/74 background; true FreeSASA sensitivity
+Family-aware endpoint,Family-cluster unadjusted,OR,1.4315789473684215,0.5955504539220383,3.441216892795385,0.4226762753841206,40% identity/80% coverage; 140 family clusters
+Family-aware endpoint,Family-cluster covariate adjusted,OR,0.8094608534581644,0.26644855948305324,2.459112087347929,0.7092519782725406,Cluster-robust logistic model; 140 family clusters
+Opportunity-normalized geometry,Recurrent residue-pair rate,RR,1.0228562421185377,0.45849686220725056,2.281880157269071,0.9559777177069192,Poisson log-rate model with protein-level HC3 robust SE and log exposure offset
+Opportunity-normalized geometry,Connected recurrent-pocket rate,RR,1.0937034277198217,0.5300686594013605,2.2566646161593775,0.808489902693539,Poisson log-rate model with protein-level HC3 robust SE and log exposure offset
+Opportunity-normalized geometry,Qualifying model-pair event rate,RR,0.9024469255783476,0.45591671155434055,1.7863141070422075,0.7682634567433803,Poisson log-rate model with protein-level HC3 robust SE and log exposure offset
+Opportunity-normalized geometry,"Any recurrent pair, opportunity adjusted",OR,0.9232333188175662,0.3385901434347642,2.5173791307930413,0.8759785171171032,Logistic GLM with HC3 robust SE; log eligible pairs and pLDDT>=70 coverage covariates
+Family-aware opportunity,Family-cluster recurrent-pair rate,RR,1.0228562421185377,0.4652402211467017,2.2488057663246463,0.955162697313724,Poisson offset with family-cluster robust SE; 140 clusters
