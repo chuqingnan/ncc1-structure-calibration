@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.venv/
+env/
+*.pdb
+*.cif
+*.a3m
+*scores*.json
+*pae*.json
+*.zip
+*.tar.gz
+raw_models/
+outputs/raw/
