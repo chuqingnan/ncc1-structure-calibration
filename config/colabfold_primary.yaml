@@ -1,0 +1,11 @@
+analysis: candidate_background_primary_prediction
+model_type: alphafold2_ptm
+models_per_protein: 3
+num_recycles: 3
+stop_at_score: 100
+msa_mode: mmseqs2_uniref_env
+amber_relaxation: false
+notes:
+  - Candidate and comparison proteins were processed with the same settings.
+  - Proteins were split into operational batches; batch membership does not alter the endpoint.
+  - Raw coordinates, PAE, score JSON, and A3M files are assigned to the companion Zenodo dataset.
