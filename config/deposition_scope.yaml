@@ -1,0 +1,23 @@
+github_repository:
+  includes:
+    - analysis scripts
+    - frozen parameter specifications
+    - public R108 FASTA input sets
+    - processed supplementary workbook
+    - compact figure-source and summary tables
+    - SHA-256 manifest
+  excludes:
+    - unpublished manuscript drafts
+    - copyrighted literature PDFs
+    - browser sessions or credentials
+    - absolute local filesystem paths
+    - duplicate raw structure archives
+zenodo_raw_dataset:
+  planned_contents:
+    - candidate and comparison ColabFold coordinate models
+    - PAE and score JSON files
+    - A3M alignments where redistribution is appropriate
+    - five-seed/five-model robustness outputs
+    - multimer outputs
+    - complete machine-readable analysis intermediates
+  doi: pending
