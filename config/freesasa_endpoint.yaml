@@ -1,0 +1,31 @@
+software:
+  name: FreeSASA
+  version: 2.2.1
+  probe_radius_A: 1.4
+donors:
+  residues: [Cys, Met, His]
+  atoms:
+    Cys: [SG]
+    Met: [SD]
+    His: [ND1, NE2]
+primary_endpoint:
+  same_pair_minimum_support_models: 2
+  models_per_protein: 3
+  donor_distance_min_A: 2.5
+  donor_distance_max_A: 5.0
+  minimum_sequence_separation: 10
+  minimum_local_plddt: 70
+  maximum_symmetric_pair_pae_A: 10
+  minimum_mean_selected_donor_atom_sasa_A2: 5
+  sulfur_anchor_required: true
+sensitivity_rules:
+  no_sasa_gate:
+    minimum_sequence_separation: 10
+    minimum_mean_selected_donor_atom_sasa_A2: 0
+  sequence_separation_ge3:
+    minimum_sequence_separation: 3
+    minimum_mean_selected_donor_atom_sasa_A2: 5
+  no_sasa_and_sequence_separation_ge3:
+    minimum_sequence_separation: 3
+    minimum_mean_selected_donor_atom_sasa_A2: 0
+interpretation_guardrail: "A qualifying geometry is a structural hypothesis, not evidence of metal occupancy, direct interaction, or NCC1-mediated transfer."
