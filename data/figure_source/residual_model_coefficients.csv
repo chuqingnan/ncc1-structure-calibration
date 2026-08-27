@@ -1,0 +1,51 @@
+model,feature,standardized_coefficient,training_mean,training_sd,selected_alpha
+primary_counts_context,log2_length,0.0022693867028636947,8.611440521258428,0.8793770411659597,100.0
+primary_counts_context,log2_cys_plus1,-0.03333134345764258,2.8075065551951064,0.7823213616067204,100.0
+primary_counts_context,log2_met_plus1,-0.0077416979444740125,3.2121146275962174,0.876697938701111,100.0
+primary_counts_context,log2_control_plus1,0.0652431805622428,0.07547246622596157,0.33065445413651257,100.0
+primary_counts_context,control_detected,0.0585987881429134,0.05405405405405406,0.22612433149569594,100.0
+primary_counts_context,log2_nodule_tmm_plus1,0.037197116054781376,6.3419439827416815,1.7983519897084703,100.0
+primary_counts_context,expression_missing,-0.03349400127537535,0.05405405405405406,0.22612433149569608,100.0
+primary_counts_context,compartment=Compatible,-1.5625195186421303e-18,0.0,1.0,100.0
+primary_counts_context,compartment=Incompatible,0.016578151557623422,0.013513513513513514,0.11545951007185874,100.0
+primary_counts_context,compartment=Mixed,-4.040138343156651e-18,0.0,1.0,100.0
+primary_counts_context,context=Canonical/conserved enzyme-fold coincidence,-0.029166635043269398,0.06756756756756757,0.2510023732568469,100.0
+primary_counts_context,context=Compartment-incompatible/indirect,0.016578151557623426,0.013513513513513514,0.11545951007185874,100.0
+primary_counts_context,context=Native metal/catalytic-site alternative,-0.025061429919708916,0.04054054054054054,0.19722323674765485,100.0
+primary_counts_context,context=Scaffold/proteostasis context,-0.06391417125176559,0.05405405405405406,0.2261243314956959,100.0
+primary_counts_context,context=Annotation conflict/QC,0.0,0.0,1.0,100.0
+sensitivity_density_context,log2_length,-0.016473589004683188,8.611440521258428,0.8793770411659597,100.0
+sensitivity_density_context,cys_per_100aa,-0.038421887098889856,1.6928175711050222,0.96426028629949,100.0
+sensitivity_density_context,met_per_100aa,-0.01476493756507365,2.220479111534081,0.8402313669255467,100.0
+sensitivity_density_context,log2_control_plus1,0.0645961237925814,0.07547246622596157,0.33065445413651257,100.0
+sensitivity_density_context,control_detected,0.058222625233611595,0.05405405405405406,0.22612433149569594,100.0
+sensitivity_density_context,log2_nodule_tmm_plus1,0.0380674015411616,6.3419439827416815,1.7983519897084703,100.0
+sensitivity_density_context,expression_missing,-0.03332674142528997,0.05405405405405406,0.22612433149569608,100.0
+sensitivity_density_context,compartment=Compatible,-1.5621766806124937e-18,0.0,1.0,100.0
+sensitivity_density_context,compartment=Incompatible,0.015803219532363473,0.013513513513513514,0.11545951007185874,100.0
+sensitivity_density_context,compartment=Mixed,-4.284653403082842e-20,0.0,1.0,100.0
+sensitivity_density_context,context=Canonical/conserved enzyme-fold coincidence,-0.03260048888584971,0.06756756756756757,0.2510023732568469,100.0
+sensitivity_density_context,context=Compartment-incompatible/indirect,0.015803219532363477,0.013513513513513514,0.11545951007185874,100.0
+sensitivity_density_context,context=Native metal/catalytic-site alternative,-0.02485028726698023,0.04054054054054054,0.19722323674765485,100.0
+sensitivity_density_context,context=Scaffold/proteostasis context,-0.06548296840764674,0.05405405405405406,0.2261243314956959,100.0
+sensitivity_density_context,context=Annotation conflict/QC,0.0,0.0,1.0,100.0
+sensitivity_chemistry_only,log2_length,-0.0008458791813191371,8.611440521258428,0.8793770411659597,100.0
+sensitivity_chemistry_only,log2_cys_plus1,-0.041086015549895064,2.8075065551951064,0.7823213616067204,100.0
+sensitivity_chemistry_only,log2_met_plus1,-0.015101679161794588,3.2121146275962174,0.876697938701111,100.0
+sensitivity_chemistry_only,log2_control_plus1,0.07538626640192315,0.07547246622596157,0.33065445413651257,100.0
+sensitivity_chemistry_only,control_detected,0.06397843901137064,0.05405405405405406,0.22612433149569594,100.0
+sensitivity_chemistry_only,log2_nodule_tmm_plus1,0.028992008428546434,6.3419439827416815,1.7983519897084703,100.0
+sensitivity_chemistry_only,expression_missing,-0.03134239890568225,0.05405405405405406,0.22612433149569608,100.0
+sensitivity_no_sulfur_context,log2_length,-0.0014563607587794875,8.611440521258428,0.8793770411659597,30.0
+sensitivity_no_sulfur_context,log2_control_plus1,0.09867242199652648,0.07547246622596157,0.33065445413651257,30.0
+sensitivity_no_sulfur_context,control_detected,0.07409262355011811,0.05405405405405406,0.22612433149569594,30.0
+sensitivity_no_sulfur_context,log2_nodule_tmm_plus1,0.06758208786744796,6.3419439827416815,1.7983519897084703,30.0
+sensitivity_no_sulfur_context,expression_missing,-0.057090380725241155,0.05405405405405406,0.22612433149569608,30.0
+sensitivity_no_sulfur_context,compartment=Compatible,5.178411758994191e-17,0.0,1.0,30.0
+sensitivity_no_sulfur_context,compartment=Incompatible,0.01011624124906067,0.013513513513513514,0.11545951007185874,30.0
+sensitivity_no_sulfur_context,compartment=Mixed,2.062680140542567e-17,0.0,1.0,30.0
+sensitivity_no_sulfur_context,context=Canonical/conserved enzyme-fold coincidence,-0.06191442731153114,0.06756756756756757,0.2510023732568469,30.0
+sensitivity_no_sulfur_context,context=Compartment-incompatible/indirect,0.01011624124906059,0.013513513513513514,0.11545951007185874,30.0
+sensitivity_no_sulfur_context,context=Native metal/catalytic-site alternative,-0.0529658585511112,0.04054054054054054,0.19722323674765485,30.0
+sensitivity_no_sulfur_context,context=Scaffold/proteostasis context,-0.11646789658483392,0.05405405405405406,0.2261243314956959,30.0
+sensitivity_no_sulfur_context,context=Annotation conflict/QC,0.0,0.0,1.0,30.0
