@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this analysis package, please cite the tagged release and the associated manuscript."
+title: "NCC1 structure-calibration analysis"
+type: software
+version: "1.0.0-submission"
+date-released: 2026-08-27
+authors:
+  - family-names: "Chu"
+    given-names: "Qingnan"
+repository-code: "https://github.com/chuqingnan/ncc1-structure-calibration"
+license: MIT
+keywords:
+  - AlphaFold2
+  - copper chaperone
+  - metallochaperone
+  - Medicago truncatula
+  - structural calibration
+  - FreeSASA
