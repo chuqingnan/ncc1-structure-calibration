@@ -19,7 +19,7 @@ Using the FreeSASA-corrected primary endpoint, recurrent structural geometries o
 
 ## Data not stored in Git
 
-Raw ColabFold/AlphaFold coordinate models, PAE files, score JSON files, A3M alignments, and complete analysis intermediates are too large for ordinary Git history. They are assigned to the versioned Zenodo dataset at [https://doi.org/10.5281/zenodo.22133341](https://doi.org/10.5281/zenodo.22133341). The DOI has been reserved for the deposition and will resolve after the Zenodo record is published.
+Raw ColabFold/AlphaFold coordinate models, PAE files, score JSON files, A3M alignments, and complete analysis intermediates are archived in the versioned Zenodo dataset at [https://doi.org/10.5281/zenodo.22133341](https://doi.org/10.5281/zenodo.22133341).
 
 ## Frozen structural endpoint
 
